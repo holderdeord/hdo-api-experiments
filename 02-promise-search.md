@@ -7,7 +7,8 @@ http://www.holderdeord.no/promises
     "navigators": [
         {
             "query": {
-
+                "parliament_period": "2013-2017",
+                "promisor": "Arbeiderpartiet"
             },
             "title": "Søk",
             "param": "q",
@@ -15,11 +16,11 @@ http://www.holderdeord.no/promises
                 "keyword": true,
                 "facet": false
             },
-            "filter_url": "/promises?q=%7Bquery%7D",
+            "filter_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet&q=%7Bquery%7D",
             "value": null
         },
         {
-            "query": null,
+            "query": "2013-2017",
             "title": "Periode",
             "param": "parliament_period",
             "type": {
@@ -29,22 +30,15 @@ http://www.holderdeord.no/promises
             "terms": [
                 {
                     "name": "2013-2017",
-                    "count": 7563,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?parliament_period=2013-2017"
-                },
-                {
-                    "name": "2009-2013",
-                    "count": 5600,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?parliament_period=2009-2013"
+                    "count": 847,
+                    "active": true,
+                    "clear_url": "/promises?promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 }
             ]
         },
         {
-            "query": null,
+            "query": "Arbeiderpartiet",
             "title": "Parti / Regjering",
             "param": "promisor",
             "type": {
@@ -54,73 +48,10 @@ http://www.holderdeord.no/promises
             "terms": [
                 {
                     "name": "Arbeiderpartiet",
-                    "count": 1410,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?promisor=Arbeiderpartiet"
-                },
-                {
-                    "name": "Fremskrittspartiet",
-                    "count": 1209,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?promisor=Fremskrittspartiet"
-                },
-                {
-                    "name": "Høyre",
-                    "count": 1358,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?promisor=H%C3%B8yre"
-                },
-                {
-                    "name": "Kristelig Folkeparti",
-                    "count": 1905,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?promisor=Kristelig+Folkeparti"
-                },
-                {
-                    "name": "Miljøpartiet De Grønne",
-                    "count": 659,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?promisor=Milj%C3%B8partiet+De+Gr%C3%B8nne"
-                },
-                {
-                    "name": "Regjeringen Solberg",
-                    "count": 764,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?promisor=Regjeringen+Solberg"
-                },
-                {
-                    "name": "Regjeringen Stoltenberg II",
-                    "count": 571,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?promisor=Regjeringen+Stoltenberg+II"
-                },
-                {
-                    "name": "Senterpartiet",
-                    "count": 1784,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?promisor=Senterpartiet"
-                },
-                {
-                    "name": "Sosialistisk Venstreparti",
-                    "count": 1698,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?promisor=Sosialistisk+Venstreparti"
-                },
-                {
-                    "name": "Venstre",
-                    "count": 1805,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?promisor=Venstre"
+                    "count": 847,
+                    "active": true,
+                    "clear_url": "/promises?parliament_period=2013-2017",
+                    "filter_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 }
             ]
         },
@@ -134,1282 +65,1073 @@ http://www.holderdeord.no/promises
             },
             "terms": [
                 {
-                    "name": "Aksjer",
-                    "count": 7,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Aksjer"
-                },
-                {
                     "name": "Arbeidsliv",
-                    "count": 521,
+                    "count": 56,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Arbeidsliv"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Arbeidsliv&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Arbeidsmiljø",
-                    "count": 99,
+                    "count": 12,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Arbeidsmilj%C3%B8"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Arbeidsmilj%C3%B8&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Arbeidsvilkår",
-                    "count": 178,
+                    "count": 25,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Arbeidsvilk%C3%A5r"
-                },
-                {
-                    "name": "Atomkraft",
-                    "count": 13,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Atomkraft"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Arbeidsvilk%C3%A5r&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Atomvåpen",
-                    "count": 25,
+                    "count": 4,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Atomv%C3%A5pen"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Atomv%C3%A5pen&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Avgifter",
-                    "count": 172,
+                    "count": 5,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Avgifter"
-                },
-                {
-                    "name": "Banker",
-                    "count": 32,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Banker"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Avgifter&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Barn",
-                    "count": 282,
+                    "count": 32,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Barn"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Barn&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Barnehager",
-                    "count": 149,
+                    "count": 18,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Barnehager"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Barnehager&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Barnetrygd",
-                    "count": 10,
+                    "count": 5,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Barnetrygd"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Barnetrygd&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Barnevern",
-                    "count": 131,
+                    "count": 16,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Barnevern"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Barnevern&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Bergverk",
-                    "count": 19,
+                    "count": 3,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Bergverk"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Bergverk&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Bibliotek og litteratur",
-                    "count": 86,
+                    "count": 6,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Bibliotek+og+litteratur"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Bibliotek+og+litteratur&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Boligsaker",
-                    "count": 264,
+                    "count": 35,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Boligsaker"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Boligsaker&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Bygningsvesen",
-                    "count": 46,
+                    "count": 5,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Bygningsvesen"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Bygningsvesen&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Den norske kirke",
-                    "count": 64,
+                    "count": 3,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Den+norske+kirke"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Den+norske+kirke&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Departementer",
-                    "count": 25,
+                    "count": 6,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Departementer"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Departementer&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Distriktspolitikk",
-                    "count": 229,
+                    "count": 26,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Distriktspolitikk"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Distriktspolitikk&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Domstoler",
-                    "count": 56,
+                    "count": 2,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Domstoler"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Domstoler&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "EFTA/EU",
-                    "count": 131,
+                    "count": 13,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=EFTA%2FEU"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=EFTA%2FEU&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Eldreomsorg",
-                    "count": 278,
+                    "count": 43,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Eldreomsorg"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Eldreomsorg&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Elektrisitet",
-                    "count": 73,
+                    "count": 8,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Elektrisitet"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Elektrisitet&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Energi",
-                    "count": 497,
+                    "count": 43,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Energi"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Energi&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Europarådet",
-                    "count": 4,
+                    "count": 2,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Europar%C3%A5det"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Europar%C3%A5det&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "FN",
-                    "count": 162,
+                    "count": 6,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=FN"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=FN&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "FN-styrker",
-                    "count": 20,
+                    "count": 2,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=FN-styrker"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=FN-styrker&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Familie",
-                    "count": 262,
+                    "count": 27,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Familie"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Familie&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Fangst",
-                    "count": 77,
+                    "count": 8,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Fangst"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Fangst&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Fengsler",
-                    "count": 36,
+                    "count": 5,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Fengsler"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Fengsler&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Ferger",
-                    "count": 30,
+                    "count": 4,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Ferger"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Ferger&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Finanser",
-                    "count": 165,
+                    "count": 11,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Finanser"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Finanser&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Fiskeomsetning",
-                    "count": 24,
+                    "count": 8,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Fiskeomsetning"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Fiskeomsetning&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Fiskerier",
-                    "count": 239,
+                    "count": 17,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Fiskerier"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Fiskerier&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Folkehelse",
-                    "count": 175,
+                    "count": 23,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Folkehelse"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Folkehelse&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Forbrukersaker",
-                    "count": 104,
+                    "count": 6,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Forbrukersaker"
-                },
-                {
-                    "name": "Forsikring",
-                    "count": 2,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Forsikring"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Forbrukersaker&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Forskning",
-                    "count": 464,
+                    "count": 45,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Forskning"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Forskning&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Forsvar",
-                    "count": 232,
+                    "count": 12,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Forsvar"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Forsvar&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Forsvarsmateriell",
-                    "count": 60,
+                    "count": 4,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Forsvarsmateriell"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Forsvarsmateriell&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Forurensning",
-                    "count": 110,
+                    "count": 10,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Forurensning"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Forurensning&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Fredsarbeid",
-                    "count": 50,
+                    "count": 2,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Fredsarbeid"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Fredsarbeid&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Funksjonshemmede",
-                    "count": 187,
+                    "count": 20,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Funksjonshemmede"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Funksjonshemmede&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Fylker",
-                    "count": 80,
+                    "count": 11,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Fylker"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Fylker&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Fylkeskommunenes økonomi",
-                    "count": 14,
+                    "count": 6,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Fylkeskommunenes+%C3%B8konomi"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Fylkeskommunenes+%C3%B8konomi&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Grensespørsmål",
-                    "count": 20,
+                    "count": 2,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Grensesp%C3%B8rsm%C3%A5l"
-                },
-                {
-                    "name": "Grunnloven",
-                    "count": 53,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Grunnloven"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Grensesp%C3%B8rsm%C3%A5l&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Grunnskole",
-                    "count": 311,
+                    "count": 59,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Grunnskole"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Grunnskole&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Handel",
-                    "count": 19,
+                    "count": 2,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Handel"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Handel&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Havbruk",
-                    "count": 148,
+                    "count": 6,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Havbruk"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Havbruk&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Havner",
-                    "count": 23,
+                    "count": 5,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Havner"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Havner&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Helseinstitusjoner",
-                    "count": 141,
+                    "count": 38,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Helseinstitusjoner"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Helseinstitusjoner&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Helsepersonell",
-                    "count": 98,
+                    "count": 21,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Helsepersonell"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Helsepersonell&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Helsevesen",
-                    "count": 831,
+                    "count": 55,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Helsevesen"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Helsevesen&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Husbanken",
-                    "count": 23,
+                    "count": 3,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Husbanken"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Husbanken&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Husdyr",
-                    "count": 81,
+                    "count": 3,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Husdyr"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Husdyr&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Høgskoler",
-                    "count": 55,
+                    "count": 21,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=H%C3%B8gskoler"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=H%C3%B8gskoler&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Høyere utdanning",
-                    "count": 320,
+                    "count": 30,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=H%C3%B8yere+utdanning"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=H%C3%B8yere+utdanning&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Idrett",
-                    "count": 120,
+                    "count": 13,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Idrett"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Idrett&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Industri",
-                    "count": 74,
+                    "count": 9,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Industri"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Industri&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Innvandrere",
-                    "count": 652,
+                    "count": 31,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Innvandrere"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Innvandrere&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Internasjonal rett",
-                    "count": 38,
+                    "count": 2,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Internasjonal+rett"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Internasjonal+rett&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Internasjonalt samarbeid",
-                    "count": 285,
+                    "count": 40,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Internasjonalt+samarbeid"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Internasjonalt+samarbeid&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Jernbaner",
-                    "count": 141,
+                    "count": 11,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Jernbaner"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Jernbaner&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Jordbruk",
-                    "count": 63,
+                    "count": 7,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Jordbruk"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Jordbruk&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Kommunenes økonomi",
-                    "count": 93,
+                    "count": 14,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Kommunenes+%C3%B8konomi"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Kommunenes+%C3%B8konomi&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Kommuner",
-                    "count": 343,
+                    "count": 46,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Kommuner"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Kommuner&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Kommunikasjon",
-                    "count": 204,
+                    "count": 16,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Kommunikasjon"
-                },
-                {
-                    "name": "Kongen",
-                    "count": 1,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Kongen"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Kommunikasjon&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Kriminalomsorg",
-                    "count": 84,
+                    "count": 5,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Kriminalomsorg"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Kriminalomsorg&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Kringkasting",
-                    "count": 24,
+                    "count": 9,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Kringkasting"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Kringkasting&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Kultur",
-                    "count": 575,
+                    "count": 43,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Kultur"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Kultur&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Kulturvern",
-                    "count": 106,
+                    "count": 1,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Kulturvern"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Kulturvern&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Kunst",
-                    "count": 72,
+                    "count": 4,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Kunst"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Kunst&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Landbruk",
-                    "count": 360,
+                    "count": 19,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Landbruk"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Landbruk&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Landbruksprodukter",
-                    "count": 33,
+                    "count": 4,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Landbruksprodukter"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Landbruksprodukter&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Likestilling",
-                    "count": 276,
+                    "count": 21,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Likestilling"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Likestilling&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Lokalforvaltning",
-                    "count": 297,
+                    "count": 38,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Lokalforvaltning"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Lokalforvaltning&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Lotteri og spill",
-                    "count": 39,
+                    "count": 3,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Lotteri+og+spill"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Lotteri+og+spill&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Luftfart",
-                    "count": 57,
+                    "count": 2,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Luftfart"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Luftfart&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Lønn",
-                    "count": 77,
+                    "count": 14,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=L%C3%B8nn"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=L%C3%B8nn&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Massemedier",
-                    "count": 99,
+                    "count": 9,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Massemedier"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Massemedier&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Menneskerettigheter",
-                    "count": 185,
+                    "count": 10,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Menneskerettigheter"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Menneskerettigheter&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Merverdiavgift",
-                    "count": 40,
+                    "count": 3,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Merverdiavgift"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Merverdiavgift&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Militært personell",
-                    "count": 73,
+                    "count": 6,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Milit%C3%A6rt+personell"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Milit%C3%A6rt+personell&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Miljøvern",
-                    "count": 1040,
+                    "count": 43,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Milj%C3%B8vern"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Milj%C3%B8vern&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "NATO",
-                    "count": 60,
+                    "count": 3,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=NATO"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=NATO&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Naturskader",
-                    "count": 19,
+                    "count": 18,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Naturskader"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Naturskader&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Naturvern",
-                    "count": 449,
+                    "count": 19,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Naturvern"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Naturvern&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Nordisk samarbeid",
-                    "count": 36,
+                    "count": 4,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Nordisk+samarbeid"
-                },
-                {
-                    "name": "Norges bank",
-                    "count": 11,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Norges+bank"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Nordisk+samarbeid&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Norsk rikskringkasting",
-                    "count": 31,
+                    "count": 3,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Norsk+rikskringkasting"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Norsk+rikskringkasting&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Næringsliv",
-                    "count": 528,
+                    "count": 46,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=N%C3%A6ringsliv"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=N%C3%A6ringsliv&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Næringsutvikling",
-                    "count": 206,
+                    "count": 28,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=N%C3%A6ringsutvikling"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=N%C3%A6ringsutvikling&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Olje",
-                    "count": 110,
+                    "count": 16,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Olje"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Olje&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Oljeomsetning",
-                    "count": 23,
+                    "count": 2,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Oljeomsetning"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Oljeomsetning&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Oljeutvinning",
-                    "count": 138,
+                    "count": 9,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Oljeutvinning"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Oljeutvinning&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Personvern",
-                    "count": 123,
+                    "count": 7,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Personvern"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Personvern&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Polarområder",
-                    "count": 88,
+                    "count": 3,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Polaromr%C3%A5der"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Polaromr%C3%A5der&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Politi og påtalemyndighet",
-                    "count": 353,
+                    "count": 23,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Politi+og+p%C3%A5talemyndighet"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Politi+og+p%C3%A5talemyndighet&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Politiske partier",
-                    "count": 9,
+                    "count": 1,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Politiske+partier"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Politiske+partier&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Post",
-                    "count": 23,
+                    "count": 1,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Post"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Post&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Priser og konkurranseforhold",
-                    "count": 77,
+                    "count": 9,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Priser+og+konkurranseforhold"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Priser+og+konkurranseforhold&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Privatskoler",
-                    "count": 29,
+                    "count": 1,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Privatskoler"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Privatskoler&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Redningstjeneste",
-                    "count": 18,
+                    "count": 6,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Redningstjeneste"
-                },
-                {
-                    "name": "Regjeringen",
-                    "count": 5,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Regjeringen"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Redningstjeneste&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Reindrift",
-                    "count": 29,
+                    "count": 7,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Reindrift"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Reindrift&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Reiselivsnæring",
-                    "count": 75,
+                    "count": 3,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Reiselivsn%C3%A6ring"
-                },
-                {
-                    "name": "Rettferdsvederlag",
-                    "count": 1,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Rettferdsvederlag"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Reiselivsn%C3%A6ring&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Rettsvesen",
-                    "count": 259,
+                    "count": 3,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Rettsvesen"
-                },
-                {
-                    "name": "Riksrevisjonen",
-                    "count": 1,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Riksrevisjonen"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Rettsvesen&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Rusmidler",
-                    "count": 320,
+                    "count": 23,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Rusmidler"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Rusmidler&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Samer",
-                    "count": 164,
+                    "count": 10,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Samer"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Samer&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Samferdsel",
-                    "count": 425,
+                    "count": 24,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Samferdsel"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Samferdsel&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Sikkerhet til sjøs",
-                    "count": 35,
+                    "count": 3,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Sikkerhet+til+sj%C3%B8s"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Sikkerhet+til+sj%C3%B8s&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Sivil beredskap",
-                    "count": 32,
+                    "count": 7,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Sivil+beredskap"
-                },
-                {
-                    "name": "Sivile vernepliktige",
-                    "count": 1,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Sivile+vernepliktige"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Sivil+beredskap&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Sivilrett",
-                    "count": 4,
+                    "count": 1,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Sivilrett"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Sivilrett&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Sjøfart",
-                    "count": 82,
+                    "count": 8,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Sj%C3%B8fart"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Sj%C3%B8fart&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Sjøfolk",
-                    "count": 14,
+                    "count": 2,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Sj%C3%B8folk"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Sj%C3%B8folk&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Skatteadministrasjon",
-                    "count": 27,
+                    "count": 4,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Skatteadministrasjon"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Skatteadministrasjon&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Skatteavtaler",
-                    "count": 7,
+                    "count": 2,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Skatteavtaler"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Skatteavtaler&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Skattefradrag",
-                    "count": 64,
+                    "count": 4,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Skattefradrag"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Skattefradrag&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Skatter",
-                    "count": 293,
+                    "count": 7,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Skatter"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Skatter&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Skogbruk",
-                    "count": 74,
+                    "count": 5,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Skogbruk"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Skogbruk&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Skoler",
-                    "count": 401,
+                    "count": 54,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Skoler"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Skoler&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Sosialvesen",
-                    "count": 321,
+                    "count": 53,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Sosialvesen"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Sosialvesen&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Spesialundervisning",
-                    "count": 27,
+                    "count": 12,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Spesialundervisning"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Spesialundervisning&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Språk",
-                    "count": 163,
+                    "count": 12,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Spr%C3%A5k"
-                },
-                {
-                    "name": "Statens personalpolitikk",
-                    "count": 25,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Statens+personalpolitikk"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Spr%C3%A5k&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Statoil asa",
-                    "count": 11,
+                    "count": 2,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Statoil+asa"
-                },
-                {
-                    "name": "Statsbanker",
-                    "count": 1,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Statsbanker"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Statoil+asa&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Statsbedrifter",
-                    "count": 53,
+                    "count": 6,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Statsbedrifter"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Statsbedrifter&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Statsbudsjettet",
-                    "count": 41,
+                    "count": 15,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Statsbudsjettet"
-                },
-                {
-                    "name": "Statseiendommer",
-                    "count": 17,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Statseiendommer"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Statsbudsjettet&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Statsforfatning",
-                    "count": 16,
+                    "count": 4,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Statsforfatning"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Statsforfatning&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Statsforvaltning",
-                    "count": 424,
+                    "count": 37,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Statsforvaltning"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Statsforvaltning&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Statslån",
-                    "count": 4,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Statsl%C3%A5n"
-                },
-                {
-                    "name": "Stortinget",
-                    "count": 18,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Stortinget"
-                },
-                {
-                    "name": "Stortingets ombudsmann for forvaltningen",
-                    "count": 1,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Stortingets+ombudsmann+for+forvaltningen"
-                },
-                {
-                    "name": "Stortingsrepresentanter",
                     "count": 2,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Stortingsrepresentanter"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Statsl%C3%A5n&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Strafferett",
-                    "count": 109,
+                    "count": 10,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Strafferett"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Strafferett&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Studiefinansiering",
-                    "count": 108,
+                    "count": 11,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Studiefinansiering"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Studiefinansiering&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Svalbard",
-                    "count": 9,
+                    "count": 4,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Svalbard"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Svalbard&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Svangerskap",
-                    "count": 125,
+                    "count": 8,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Svangerskap"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Svangerskap&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Sykdommer",
-                    "count": 108,
+                    "count": 33,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Sykdommer"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Sykdommer&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Sykehus",
-                    "count": 94,
+                    "count": 12,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Sykehus"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Sykehus&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Sysselsetting",
-                    "count": 112,
+                    "count": 15,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Sysselsetting"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Sysselsetting&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Særavgifter",
-                    "count": 31,
+                    "count": 4,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=S%C3%A6ravgifter"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=S%C3%A6ravgifter&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Telekommunikasjoner",
-                    "count": 135,
+                    "count": 27,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Telekommunikasjoner"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Telekommunikasjoner&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Toll",
-                    "count": 32,
+                    "count": 3,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Toll"
-                },
-                {
-                    "name": "Traktater",
-                    "count": 40,
-                    "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Traktater"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Toll&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Trossamfunn",
-                    "count": 115,
+                    "count": 10,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Trossamfunn"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Trossamfunn&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Trygder",
-                    "count": 348,
+                    "count": 24,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Trygder"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Trygder&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Ungdomsarbeid",
-                    "count": 24,
+                    "count": 8,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Ungdomsarbeid"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Ungdomsarbeid&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Universiteter",
-                    "count": 50,
+                    "count": 20,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Universiteter"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Universiteter&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Utdanning",
-                    "count": 528,
+                    "count": 98,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Utdanning"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Utdanning&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Utenrikshandel",
-                    "count": 119,
+                    "count": 13,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Utenrikshandel"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Utenrikshandel&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Utenrikssaker",
-                    "count": 165,
+                    "count": 13,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Utenrikssaker"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Utenrikssaker&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Utviklingshjelp",
-                    "count": 314,
+                    "count": 21,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Utviklingshjelp"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Utviklingshjelp&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Valg",
-                    "count": 65,
+                    "count": 6,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Valg"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Valg&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Varehandel",
-                    "count": 56,
+                    "count": 1,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Varehandel"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Varehandel&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Vassdragsregulering",
-                    "count": 29,
+                    "count": 4,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Vassdragsregulering"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Vassdragsregulering&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Vegtrafikk",
-                    "count": 213,
+                    "count": 7,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Vegtrafikk"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Vegtrafikk&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Vegvesen",
-                    "count": 40,
+                    "count": 1,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Vegvesen"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Vegvesen&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Verftsindustri",
-                    "count": 7,
+                    "count": 2,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Verftsindustri"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Verftsindustri&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Veterinærvesen",
-                    "count": 4,
+                    "count": 2,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Veterin%C3%A6rvesen"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Veterin%C3%A6rvesen&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Videregående skoler",
-                    "count": 324,
+                    "count": 62,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Videreg%C3%A5ende+skoler"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Videreg%C3%A5ende+skoler&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Voksenopplæring",
-                    "count": 78,
+                    "count": 13,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=Voksenoppl%C3%A6ring"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=Voksenoppl%C3%A6ring&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 },
                 {
                     "name": "Økonomisk samarbeid",
-                    "count": 103,
+                    "count": 3,
                     "active": false,
-                    "clear_url": "/promises",
-                    "filter_url": "/promises?category=%C3%98konomisk+samarbeid"
+                    "clear_url": "/promises?parliament_period=2013-2017&promisor=Arbeiderpartiet",
+                    "filter_url": "/promises?category=%C3%98konomisk+samarbeid&parliament_period=2013-2017&promisor=Arbeiderpartiet"
                 }
             ]
         }
     ],
     "results": [
-        {
-            "body": "Ap vil innføre sesjonsplikt for begge kjønn, og på bakgrunn av erfaringene med dette vurdere å innføre verneplikt for begge kjønn på sikt.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "Forsvar"
-            ],
-            "id": "539",
-            "type": "promise"
-        },
-        {
-            "body": "Ap vil satse på medarbeiderne og deres kompetanse, og arbeide aktivt med å rekruttere, beholde og videreutvikle kvalifisert personell.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "Militært personell"
-            ],
-            "id": "541",
-            "type": "promise"
-        },
-        {
-            "body": "Ap vil vektlegge flernasjonalt samarbeid i forsvarspolitikken.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "Forsvar",
-                "Internasjonalt samarbeid"
-            ],
-            "id": "546",
-            "type": "promise"
-        },
-        {
-            "body": "Ap vil styrke saksbehandlingskapasiteten og redusere saksbehandlingstiden i UDI.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "Innvandrere",
-                "Politi og påtalemyndighet"
-            ],
-            "id": "553",
-            "type": "promise"
-        },
-        {
-            "body": "Ap vil satse på økt rekruttering av hjelpeverger som skal bistå enslige mindreårige asylsøkere.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "Barn",
-                "Innvandrere"
-            ],
-            "id": "558",
-            "type": "promise"
-        },
-        {
-            "body": "Ap vil at det etableres internasjonale standarder for å motvirke aktiv rekruttering av arbeidstakere med høyere utdanning og kvalifikasjoner som utviklingsland har stor mangel på. Slik regulering skal ikke begrense disse arbeidstakernes rett til å søke arbeid i andre land.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "Arbeidsliv",
-                "Innvandrere",
-                "Internasjonalt samarbeid"
-            ],
-            "id": "560",
-            "type": "promise"
-        },
         {
             "body": "Ap vil holde de samlede skattene og avgiftene på samme nivå som i dag.",
             "party_names": [
@@ -1649,405 +1371,502 @@ http://www.holderdeord.no/promises
             "type": "promise"
         },
         {
-            "body": "Ap vil bidra til at det opprettes flere livssynsnøytrale seremonilokaler.",
+            "body": "Ap vil arbeide mot lagring av nye atomvåpen i Europa.",
             "party_names": [
                 "Arbeiderpartiet"
             ],
-            "parliament_period_name": "2009-2013",
+            "parliament_period_name": "2013-2017",
             "promisor_name": "Arbeiderpartiet",
             "category_names": [
-                "Trossamfunn"
-            ],
-            "id": "433",
-            "type": "promise"
-        },
-        {
-            "body": "Ap vil legge til rette for at det skal bli flere kvinnelige sokneprester, proster og biskoper.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "Den norske kirke",
-                "Likestilling"
-            ],
-            "id": "438",
-            "type": "promise"
-        },
-        {
-            "body": "Ap vil at kommunene får økonomisk hjelp til å ruste opp kirkebygg som trenger det.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "Den norske kirke",
-                "Kommunenes økonomi"
-            ],
-            "id": "440",
-            "type": "promise"
-        },
-        {
-            "body": "Ap vil bidra til å styrke det internasjonale atomenergibyrået (IAEA) og internasjonal overvåking av uran-anrikning.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "Atomkraft",
                 "Atomvåpen"
             ],
-            "id": "445",
+            "id": "9900",
             "type": "promise"
         },
         {
-            "body": "Ap vil ha særlig fokus på arbeidet for å få en internasjonal avtale om håndvåpen.",
+            "body": "Ap vil knytte skole og SFO tettere sammen med kulturskole, idrett og frivillige aktiviteter, slik at elevene opplever et mest mulig helhetlig og variert aktivitetstilbud.",
             "party_names": [
                 "Arbeiderpartiet"
             ],
-            "parliament_period_name": "2009-2013",
+            "parliament_period_name": "2013-2017",
             "promisor_name": "Arbeiderpartiet",
             "category_names": [
-                "Forsvarsmateriell",
-                "Traktater"
+                "Grunnskole",
+                "Idrett",
+                "Kultur",
+                "Skoler",
+                "Ungdomsarbeid",
+                "Videregående skoler"
             ],
-            "id": "452",
+            "id": "9296",
             "type": "promise"
         },
         {
-            "body": "Ap vil med forankring i FNs sikkerhetsresolusjoner, videreføre vårt engasjement i Afghanistan både sivilt og militært, med sikte på å støtte demokrati, utvikling, godt styresett, fred og sikkerhet i regionen og likestilling for afghanske kvinner.",
+            "body": "Ap vil sørge for at de som ikke kan klare seg med oppfølging fra helse- og omsorgspersonell hjemme, får tilgang til bolig med heldøgns omsorg eller sykehjemsplass.",
             "party_names": [
                 "Arbeiderpartiet"
             ],
-            "parliament_period_name": "2009-2013",
+            "parliament_period_name": "2013-2017",
             "promisor_name": "Arbeiderpartiet",
             "category_names": [
-                "FN-styrker",
-                "Fredsarbeid"
+                "Eldreomsorg",
+                "Helseinstitusjoner"
             ],
-            "id": "457",
+            "id": "9594",
             "type": "promise"
         },
         {
-            "body": "Ap vil styrke utviklingslandenes innflytelse i verdensbanken og Pengefondet for å få større åpenhet og mer demokratisk deltakelse.",
+            "body": "Ap vil aktivt fremme funksjonshemmedes rettigheter, bekjempe diskriminering og arbeide for å gi funksjonshemmedes barn tilgang til utdanning. [utviklingspolitikk].",
             "party_names": [
                 "Arbeiderpartiet"
             ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "Økonomisk samarbeid"
-            ],
-            "id": "464",
-            "type": "promise"
-        },
-        {
-            "body": "Ap vil at flere land skal ha toll- og kvotefri markedsadgang for alle varer til Norge.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "Toll",
-                "Utenrikshandel"
-            ],
-            "id": "469",
-            "type": "promise"
-        },
-        {
-            "body": "Ap vil at eksportsubsidier og dumping av mat fra rike land til utviklingsland må opphøre.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "Landbruksprodukter",
-                "Økonomisk samarbeid"
-            ],
-            "id": "471",
-            "type": "promise"
-        },
-        {
-            "body": "Ap vil arbeide for internasjonale avtaler om globale finansieringskilder som kan medvirke til omfordeling og til styrking av FN-institusjonene: flyavgift, karbonskatt, skatt på våpenhandel eller avgift på valutatransaksjoner.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "FN",
-                "Traktater"
-            ],
-            "id": "476",
-            "type": "promise"
-        },
-        {
-            "body": "Ap vil at utviklingsprosesser- og programmer hvor Norge deltar, skal være åpne og transparente.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
+            "parliament_period_name": "2013-2017",
             "promisor_name": "Arbeiderpartiet",
             "category_names": [
                 "Utviklingshjelp"
             ],
-            "id": "483",
+            "id": "9892",
             "type": "promise"
         },
         {
-            "body": "Ap vil arbeide for at Norge gjennom utviklings og bistandspolitikken bidrar til å gi våre samarbeidsland handelskompetanse, bl.a. ved Aid-for-Trade.",
+            "body": "For å rette en særlig innsats mot bransjer som er spesielt utsatt for \nuseriøsitet og sosial dumping, vil Arbeiderpartiet blant annet videreutvikle treparts\nbransjeprogrammer som virkemiddel.",
             "party_names": [
                 "Arbeiderpartiet"
             ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "Utviklingshjelp"
-            ],
-            "id": "488",
-            "type": "promise"
-        },
-        {
-            "body": "Ap vil sikre fattige land handlingsrom for å velge utviklingsstrategier som tar hensyn til egne behov.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "Utviklingshjelp"
-            ],
-            "id": "490",
-            "type": "promise"
-        },
-        {
-            "body": "Ap vil styrke de regionale institusjonenes kapasitet på handelsområdet, bl.a. gjennom aktuelle FN-organisasjoner, ITC og de regionale utviklingsbankene.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "Økonomisk samarbeid"
-            ],
-            "id": "495",
-            "type": "promise"
-        },
-        {
-            "body": "Ap vil at norsk næringsliv må ta samfunnsansvar og respektere OECDs retningslinjer, FNs Global Compact, grunnleggende internasjonale miljø- og våpenkonvensjoner og grunnleggende ILO-konvensjoner, uansett hvor de opererer.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "Traktater",
-                "Utenrikshandel"
-            ],
-            "id": "503",
-            "type": "promise"
-        },
-        {
-            "body": "Ap vil bidra til å styrke den internasjonale innsatsen mot menneskehandel.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "Menneskerettigheter",
-                "Politi og påtalemyndighet"
-            ],
-            "id": "508",
-            "type": "promise"
-        },
-        {
-            "body": "Ap vil støtte menneskerettighetsforsvarere i land der grunnleggende rettigheter krenkes.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "Menneskerettigheter"
-            ],
-            "id": "510",
-            "type": "promise"
-        },
-        {
-            "body": "Ap vil arbeide for at en framtidig klimaavtale har ordninger som bidrar til tilpasningstiltak og teknologiutvikling, herunder teknologi for karbonfangst og -lagring.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "Miljøvern",
-                "Traktater"
-            ],
-            "id": "515",
-            "type": "promise"
-        },
-        {
-            "body": "Ap vil bidra til å styrke europeisk samarbeid om arbeidertakernes rettigheter og tiltak mot sosial dumping.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
+            "parliament_period_name": "2013-2017",
             "promisor_name": "Arbeiderpartiet",
             "category_names": [
                 "Arbeidsliv",
-                "EFTA/EU"
+                "Arbeidsvilkår"
             ],
-            "id": "522",
+            "id": "9929",
             "type": "promise"
         },
         {
-            "body": "Ap vil legge til rette for at Norge skal ligge fremst i utvikling av kunnskap om miljø, ressurser og næringsutvikling i nordområdene. En vesentlig del av denne forskningen og kunnskapsutviklingen må skje ved universitet og høgskoler i nord.",
+            "body": "Ap vil inngå flere samarbeidsavtaler mellom staten og frivillig sektor på aktuelle områder, som beredskap og inkludering.",
             "party_names": [
                 "Arbeiderpartiet"
             ],
-            "parliament_period_name": "2009-2013",
+            "parliament_period_name": "2013-2017",
             "promisor_name": "Arbeiderpartiet",
             "category_names": [
-                "Forskning",
-                "Polarområder"
-            ],
-            "id": "527",
-            "type": "promise"
-        },
-        {
-            "body": "Ap vil utvikle det norskrussiske kultursamarbeidet fra folk-til-folk i Barentsregionen.",
-            "party_names": [
-                "Arbeiderpartiet"
-            ],
-            "parliament_period_name": "2009-2013",
-            "promisor_name": "Arbeiderpartiet",
-            "category_names": [
-                "Internasjonalt samarbeid",
                 "Kultur",
-                "Polarområder"
+                "Sivil beredskap"
             ],
-            "id": "534",
+            "id": "9791",
             "type": "promise"
         },
         {
-            "body": "Ap vil øke innsatsen på kollektivtransport gjennom økt togtilbud og en vesentlig økning av belønningsordningen til kollektivtrafikk.",
+            "body": "Ap vil arbeide for en verden fri for atomvåpen gjennom gjensidig forpliktende nedrustning.",
             "party_names": [
                 "Arbeiderpartiet"
             ],
-            "parliament_period_name": "2009-2013",
+            "parliament_period_name": "2013-2017",
             "promisor_name": "Arbeiderpartiet",
             "category_names": [
-                "Samferdsel"
+                "Atomvåpen"
             ],
-            "id": "217",
+            "id": "9897",
             "type": "promise"
         },
         {
-            "body": "Ap vil for å sikre rasjonell framdrift av større samferdselsprosjekter vil Arbeiderpartiet gå inn for prosjektfinansiering av vei- og jernbanestrekninger.",
+            "body": "Ap vil følge opp Langtidsplanen for forsvaret 2013-2016, og sørge for en god økonomistyring i forsvaret og en langsiktig balanse mellom forsvarets oppgaver, struktur og økonomi.",
             "party_names": [
                 "Arbeiderpartiet"
             ],
-            "parliament_period_name": "2009-2013",
+            "parliament_period_name": "2013-2017",
             "promisor_name": "Arbeiderpartiet",
             "category_names": [
-                "Jernbaner",
-                "Vegtrafikk"
+                "Forsvar"
             ],
-            "id": "229",
+            "id": "9905",
             "type": "promise"
         },
         {
-            "body": "Ap vil følge opp satsingsområdene i Groruddalen og i Oslo Sør, og ha satsinger i andre byområder med tilsvarende utfordringer.",
+            "body": "Ap vil gjennomgå fritaks- og pliktgrunnlaget når verneplikten endres.",
             "party_names": [
                 "Arbeiderpartiet"
             ],
-            "parliament_period_name": "2009-2013",
+            "parliament_period_name": "2013-2017",
             "promisor_name": "Arbeiderpartiet",
             "category_names": [
-                "Lokalforvaltning"
+                "Militært personell"
             ],
-            "id": "231",
+            "id": "9912",
             "type": "promise"
         },
         {
-            "body": "Ap vil ha en betydelig økning av bevilgningene til vindkraft og andre fornybare energikilder. Disse skal ha rammebetingelser som er langsiktige og forutsigbare.",
+            "body": "Ap vil videreutvikle og forsterke det nordiske forsvarssamarbeidet gjennom materiellanskaffelser, deltakelse i internasjonale operasjoner, utdanning, overvåking, beredskap og krisehåndtering og arktiske spørsmål.",
             "party_names": [
                 "Arbeiderpartiet"
             ],
-            "parliament_period_name": "2009-2013",
+            "parliament_period_name": "2013-2017",
             "promisor_name": "Arbeiderpartiet",
             "category_names": [
-                "Energi"
+                "Forsvar",
+                "Forsvarsmateriell",
+                "Nordisk samarbeid",
+                "Polarområder",
+                "Sivil beredskap",
+                "Utdanning"
             ],
-            "id": "236",
+            "id": "9917",
             "type": "promise"
         },
         {
-            "body": "Ap vil bidra til å utvikle de regionale kraftselskapene gjennom et langsiktig offentlig og regionalt eierskap.",
+            "body": "Ap vil gi unge asylsøkere rett til videregående skoletilbud.",
             "party_names": [
                 "Arbeiderpartiet"
             ],
-            "parliament_period_name": "2009-2013",
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Innvandrere",
+                "Utdanning"
+            ],
+            "id": "9924",
+            "type": "promise"
+        },
+        {
+            "body": "Ansatte som arbeider ved utsalgssteder, er i dag ikke omfattet av bestemmelsene om natt- og \nhelgearbeid i arbeidsmiljøloven. De har dermed ikke samme lovvern som andre arbeidstakere og \nsvekket innflytelse over egen arbeidstid. Arbeiderpartiet vil ta initiativ til en gjennomgang av dette med sikte på en helhetlig regulering \nsom sikrer arbeidstakernes behov for vern, medvirking og grunnleggende \nbedriftsdemokratiske prinsipper i ulike eierkonstruksjoner. Åpningstidsbestemmelsene \ngjennomgås parallelt med dette, med sikte på en modernisering. I tråd med den norske \nmodellen gjøres dette i samarbeid med partene i arbeidslivet.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Arbeidsliv",
+                "Arbeidsmiljø"
+            ],
+            "id": "9931",
+            "type": "promise"
+        },
+        {
+            "body": "Arbeiderpartiet er sterkt opptatt av å redusere omfanget av \nmidlertidige ansettelser og konsulentbruk, da dette kan svekke arbeidstakernes rettigheter, \nmedbestemmelse og det offentliges muligheter for å utvikle god kompetanse hos egne \nmedarbeidere.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Arbeidsmiljø"
+            ],
+            "id": "9936",
+            "type": "promise"
+        },
+        {
+            "body": "Arbeiderpartiet mener at statlig kapital både skal være med å legge til rette for innovasjon og \nnyetableringer. Vi vil løpende vurdere behovet for kapital i de statlige investeringsselskapene \nInvestinor og Argentum. Arbeiderpartiet vil derfor styrke det statlige eierskapet.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Næringsutvikling"
+            ],
+            "id": "9943",
+            "type": "promise"
+        },
+        {
+            "body": "Arbeiderpartiet vil at det utvikles utdanningstilbud på høgere nivå både innen tekniske og administrative fag som gir verdensledende maritim kompetanse. Dette forutsetter oppbygging av noen særlig sterke fagmiljø.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Havbruk",
+                "Sjøfart"
+            ],
+            "id": "9948",
+            "type": "promise"
+        },
+        {
+            "body": "Arbeiderpartiet vil videreføre og styrke nettolønnsordningen for sjøfolk.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Sjøfolk"
+            ],
+            "id": "9950",
+            "type": "promise"
+        },
+        {
+            "body": "Arbeiderpartiet vil blant annet følge opp klimameldingen slik at bygningskravene i teknisk forskrift blir passivhusnivå i 2015 og nesten nullenerginivå i 2020.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
             "promisor_name": "Arbeiderpartiet",
             "category_names": [
                 "Energi",
-                "Statsbedrifter"
+                "Miljøvern"
             ],
-            "id": "243",
+            "id": "9955",
             "type": "promise"
         },
         {
-            "body": "Ap vil utvikle Mongstad til et permanent internasjonalt forskingssenter for fangst og lagring av C02.",
+            "body": "For å bidra til at \nen større andel av verdens energiproduksjon kommer fra fornybare kilder, vil Arbeiderpartiet \narbeide for at fossile subsidier avvikles og for at det etableres flere og bedre systemer for å \nprise utslipp av klimagasser.",
             "party_names": [
                 "Arbeiderpartiet"
             ],
-            "parliament_period_name": "2009-2013",
+            "parliament_period_name": "2013-2017",
             "promisor_name": "Arbeiderpartiet",
             "category_names": [
-                "Forskning",
-                "Forurensning"
+                "Avgifter",
+                "Energi",
+                "Miljøvern"
             ],
-            "id": "248",
+            "id": "9962",
             "type": "promise"
         },
         {
-            "body": "Ap vil bidra til god sameksistens mellom petroleumsvirksomhet og fiskeriinteresser.",
+            "body": "Arbeiderpartiet vil fortsette den nasjonale satsingen på klimateknologi, gjennom blant andre Enova og fondet \nfor klima, fornybar energi og energiomlegging.",
             "party_names": [
                 "Arbeiderpartiet"
             ],
-            "parliament_period_name": "2009-2013",
+            "parliament_period_name": "2013-2017",
             "promisor_name": "Arbeiderpartiet",
             "category_names": [
+                "Miljøvern"
+            ],
+            "id": "9967",
+            "type": "promise"
+        },
+        {
+            "body": "Reindriftsloven må evalueres spesielt med sikte på i større grad å verne om små aktører i \nprosesser der det totale reintallet skal ned. De næringspolitiske aspekter i de \nreindriftspolitiske virkemidlene må forsterkes.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Reindrift"
+            ],
+            "id": "9974",
+            "type": "promise"
+        },
+        {
+            "body": "Vi er opptatt av at utfordringene som [fiskeri]næringen i dag har, i hovedsak lakselus og rømming, må løses.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Fiskerier"
+            ],
+            "id": "9979",
+            "type": "promise"
+        },
+        {
+            "body": "Stebarnsadopsjoner i homofile familier skal gjennomføres raskere og enklere.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Familie"
+            ],
+            "id": "9981",
+            "type": "promise"
+        },
+        {
+            "body": "Allmenn informasjon må være tilgjengelig for alle. Det betyr for eksempel at informasjon må \nvære tilgjengelig på lydfil, i tillegg til å foreligge i elektronisk form.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Funksjonshemmede"
+            ],
+            "id": "9986",
+            "type": "promise"
+        },
+        {
+            "body": "Arbeiderpartiet vil fortsette å forbedre ordningene for refusjon gjennom folketrygden til spesielle diagnoser.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Helsevesen"
+            ],
+            "id": "9993",
+            "type": "promise"
+        },
+        {
+            "body": "Ap vil bevare deltakerloven og råfiskloven.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Fangst",
+                "Fiskeomsetning",
                 "Fiskerier",
-                "Oljeutvinning"
+                "Statsforvaltning"
             ],
-            "id": "250",
+            "id": "9474",
             "type": "promise"
         },
         {
-            "body": "Ap vil stanse tapet av biologisk mangfold og øke barskogvernet.",
+            "body": "Ap vil utvikle gode samhandlingsarenaer mellom maritime og marine næringer og forsterke innsatsen på forskning, teknologiutvikling og innovasjon i fiskeri og havbrukssektoren.",
             "party_names": [
                 "Arbeiderpartiet"
             ],
-            "parliament_period_name": "2009-2013",
+            "parliament_period_name": "2013-2017",
             "promisor_name": "Arbeiderpartiet",
             "category_names": [
-                "Naturvern"
+                "Fangst",
+                "Fiskeomsetning",
+                "Fiskerier",
+                "Forskning",
+                "Næringsutvikling"
             ],
-            "id": "255",
+            "id": "9479",
+            "type": "promise"
+        },
+        {
+            "body": "Ap vil bidra til at lokalsamfunn får tilbake for å stille sine arealer til disposisjon for havbruksnæringen ved at en andel av vederlaget fra nye konsesjoner skal tilfalle kommunene.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Havbruk",
+                "Kommuner",
+                "Lokalforvaltning"
+            ],
+            "id": "9481",
+            "type": "promise"
+        },
+        {
+            "body": "Ap vil bruke offentlige virkemidler for å sikre [IKT-]tilgang der markedsbaserte løsninger ikke etableres.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Telekommunikasjoner"
+            ],
+            "id": "9486",
+            "type": "promise"
+        },
+        {
+            "body": "Ap vil at befolkningen skal ha digital kompetanse og bruke digitale tjenester på en trygg og sikker måte.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Kommunikasjon",
+                "Telekommunikasjoner"
+            ],
+            "id": "9493",
+            "type": "promise"
+        },
+        {
+            "body": "Ap vil at graderte ytelser og mulighet til å være delvis i arbeid ved sykdom eller uførhet skal være et aktivt virkemiddel for helse og deltakelse.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Arbeidsliv",
+                "Funksjonshemmede",
+                "Sykdommer",
+                "Trygder"
+            ],
+            "id": "9498",
+            "type": "promise"
+        },
+        {
+            "body": "Ap vil at personer med rusproblemer skal få tett oppfølging i form av en kombinasjon av hjelp til å mestre rusproblemene og arbeidstrening. Oppfølgingen skal tilbys i form av et individuelt program etter modell av kvalifiseringsprogrammet.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Sosialvesen",
+                "Trygder"
+            ],
+            "id": "9501",
+            "type": "promise"
+        },
+        {
+            "body": "Ap vil at sivilsamfunnet skal involveres i arbeidet med å få flere i arbeidslivet. Initiativ i regi av ideelle aktører vil kunne nå ut til målgrupper som tradisjonelt ikke oppsøker NAV eller offentlige tjenester.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Arbeidsliv"
+            ],
+            "id": "9506",
+            "type": "promise"
+        },
+        {
+            "body": "Ap vil vurdere medlemskapsbestemmelsene i Folketrygden for å forhindre misbruk av folketrygdytelsene.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Innvandrere",
+                "Sosialvesen",
+                "Trygder"
+            ],
+            "id": "9513",
+            "type": "promise"
+        },
+        {
+            "body": "Ap vil styrke rådgivning om gjeld og økonomi ved NAV-kontoret og sørge for at dette inngår som en del av oppfølgingen i individuell plan.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Sosialvesen",
+                "Trygder"
+            ],
+            "id": "9518",
+            "type": "promise"
+        },
+        {
+            "body": "Ap vil innføre 12 måneders studiestøtte for studenter med barn og økt forsørgerstipend for de med lavest inntekt.",
+            "party_names": [
+                "Arbeiderpartiet"
+            ],
+            "parliament_period_name": "2013-2017",
+            "promisor_name": "Arbeiderpartiet",
+            "category_names": [
+                "Barn",
+                "Familie",
+                "Studiefinansiering"
+            ],
+            "id": "9520",
             "type": "promise"
         }
     ],
-    "next_url": "/promises?page=2",
+    "next_url": "/promises?page=2&parliament_period=2013-2017&promisor=Arbeiderpartiet",
     "previous_url": null,
     "current_page": 1,
-    "total_pages": 264
+    "total_pages": 17
 }
 ```
