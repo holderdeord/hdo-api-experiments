@@ -2,6 +2,8 @@ http://www.holderdeord.no/promises
 
 ### Data
 
+Her er en ad-hoc representasjon av løftesøket som vi bruker internt:
+
 ```json
 {
     "navigators": [
