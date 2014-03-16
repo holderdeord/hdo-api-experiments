@@ -1,5 +1,9 @@
 http://www.holderdeord.no/promises
 
+### search-json
+
+https://github.com/kareblak/search-json
+
 ### Data
 
 Her er en ad-hoc representasjon av løftesøket som vi bruker internt:

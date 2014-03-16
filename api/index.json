@@ -1,8 +1,16 @@
 {
   "_links": {
-    "self": { "href": "/api"},
-    "issues": {"href": "/api/issues"},
-    "representatives": {"href": "/api/representatives"},
-    "parties": {"href": "/api/parties"}
+    "self": {
+      "href": "/api"
+    },
+    "representatives": {
+      "href": "/api/representatives"
+    },
+    "parties": {
+      "href": "/api/parties"
+    },
+    "issues": {
+      "href": "/api/issues"
+    }
   }
 }
