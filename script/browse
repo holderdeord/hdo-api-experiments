@@ -1,0 +1,35 @@
+#/bin/bash
+
+[[ -d ./browser ]] || (git submodule update --init || exit 1)
+
+echo "Open http://localhost:3005/browser/browser.html"
+echo
+
+ruby <<RUBY
+  require 'rack'
+
+  file = Rack::File.new('.')
+
+  redirect = ->(loc) {
+    [302, {'Location' => loc}, []]
+  }
+
+  app = ->(env) {
+    path = env['REQUEST_PATH']
+
+    case path
+    when '/'
+      redirect.call '/api'
+    else
+      if File.file?(".#{path}/index.json")
+        redirect.call "#{path}/index.json"
+      elsif File.file?(".#{path}.json")
+        redirect.call "#{path}.json"
+      else
+        file.call env
+      end
+    end
+  }
+
+  Rack::Server.new(app: app, :Port => 3005).start
+RUBY

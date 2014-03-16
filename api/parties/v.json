@@ -1,7 +1,7 @@
 {
   "_links": {
     "self": {
-      "href": "/api/parties/v",
+      "href": "/api/parties/v"
     },
     "representatives": {
       "href": "/api/parties/v/representatives"
