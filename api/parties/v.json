@@ -1,0 +1,16 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/parties/v",
+    },
+    "representatives": {
+      "href": "/api/parties/v/representatives"
+    },
+    "logo": {
+      "href": "/api/parties/v/logo{?size}",
+      "type": "image/png",
+      "templated": true
+    }
+  },
+  "name": "Venstre"
+}

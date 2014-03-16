@@ -7,20 +7,37 @@
       "href": "/api/representatives/?page=2"
     }
   },
-  "_embedded": [
-    {
-      "external_id": "TSG",
-      "first_name": "Trine Skei",
-      "last_name": "Grande",
-      "twitter": "trinesg",
-      "_links": {
-        "self": {
-          "href": "/api/representatives/tsg"
-        },
-        "current_party": {
-          "href": "/api/parties/v"
+  "_embedded": {
+    "representatives": [
+      {
+        "first_name": "Trine Skei",
+        "last_name": "Grande",
+        "twitter": "trinesg",
+        "_links": {
+          "self": {
+            "href": "/api/representatives/tsg"
+          },
+          "party": {
+            "href": "/api/parties/v"
+          },
+          "votes": {
+            "href": "/api/representatives/tsg/votes"
+          },
+          "district": {
+            "href": "/api/districts/oslo"
+          },
+          "committees": [
+            {
+              "href": "/api/committees/ufk"
+            }
+          ],
+          "image": {
+            "href": "/api/representatives/tsg/image{?size}",
+            "type": "image/png",
+            "templated": true
+          }
         }
       }
-    }
-  ]
+    ]
+  }
 }
