@@ -10,9 +10,6 @@
   "_embedded": {
     "representatives": [
       {
-        "first_name": "Trine Skei",
-        "last_name": "Grande",
-        "twitter": "trinesg",
         "_links": {
           "self": {
             "href": "/api/representatives/tsg"
@@ -36,7 +33,10 @@
             "type": "image/png",
             "templated": true
           }
-        }
+        },
+        "first_name": "Trine Skei",
+        "last_name": "Grande",
+        "twitter": "trinesg"
       }
     ]
   }
