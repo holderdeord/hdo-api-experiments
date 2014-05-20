@@ -3,6 +3,7 @@
 [[ -d ./browser ]] || (git submodule update --init || exit 1)
 
 echo "Open http://localhost:3005/browser/browser.html"
+echo "Open http://localhost:3005/api"
 echo
 
 ruby <<RUBY

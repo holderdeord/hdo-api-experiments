@@ -1,0 +1,6 @@
+{
+  "_links": {
+    "self": {"href": "/api/issues"},
+    "next": {"href": "/api/issues?page=2"}
+  }
+}
